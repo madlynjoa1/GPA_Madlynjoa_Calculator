@@ -56,11 +56,21 @@ public class MainActivity extends AppCompatActivity {
 
 
             }});
+         gpaTextV.setBackgroundColor(Color.WHITE);
         calculate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 double result=counter/total_credit;
                 gpaTextV.setText("Your Gpa:"+result);
+                 if(result<60){
+                    gpaTextV.setBackgroundColor(Color.RED);
+                }
+                else if (result > 60 && result < 80) {
+                    gpaTextV.setBackgroundColor(Color.YELLOW);
+                } else if (result >= 80 && result <= 100) {
+                    gpaTextV.setBackgroundColor(Color.GREEN);
+                }
+            
             }
         });
 
