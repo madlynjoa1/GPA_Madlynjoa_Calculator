@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GPA_Madlynjoa_Calculator</string>
+    <string name="gpa_calculator">GPA Calculator</string>
+    <string name="credit">Credit</string>
+    <string name="grade">Grade</string>
+    <string name="add">+ADD</string>
+    <string name="calculate">Calculate</string>
+    <string name="compute_gpa">Compute GPA</string>
+    <string name="erase">erase</string>
+</resources>
